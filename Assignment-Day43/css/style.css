@@ -1,0 +1,54 @@
+body {
+    padding: 2em;
+}
+.header-container {
+
+display: flex;
+ flex-flow:column wrap;
+  align-content: center;
+   font-weight: bold;
+    padding: 26px;
+    background: tomato;
+}
+
+.footer-container {
+     display: Flex;
+      flex-flow: column wrap; 
+      align-content: center; 
+      background: lightgreen;
+      font-weight: bold;
+      padding: 10px;
+}
+
+
+.main-container {
+     display: flex ;
+     flex-direction: row wrap;
+      font-weight: bold;
+       text-align: center;
+}
+
+.main-containerItems {
+    background:deepskyblue;
+     text-align: left;
+}
+article{
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+}
+.sidebarleftItem{
+    background: gold;
+    width: 240px;
+    
+}
+.sidebarrightItem{
+        background: hotpink;
+        width: 20px;
+}
+.sideBarItem{
+    flex: 1 0 0;
+}
+.main-containerItems{
+    flex: 3 0px;
+}
